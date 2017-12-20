@@ -218,3 +218,11 @@ hr{border:0;border-top:1px solid #000000;margin:20px 0}
 .footer {
 	text-align: right;
 }
+.titletext {
+	font-size: 80px;
+}
+@media screen and (max-width: 650px) {
+	.titletext {
+		font-size: 40px;
+	}
+}
