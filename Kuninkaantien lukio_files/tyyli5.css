@@ -1,0 +1,323 @@
+html, body {
+	background-color: #93b1c6; /*#c7d0d5;NYKY #bedcf2   KOK: #e4f2f6*/
+}
+
+#kuva {
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#sivu {
+	background-color:#ffffff;
+	min-height:1100px;
+	overflow: auto;
+	margin:auto;
+	width:900px;
+	box-shadow: 0 1px 25px #333333;
+}
+
+#yla {
+	/*background-color:#ffffff;*/
+	height: 120 px;
+	margin:auto;
+	width:900px;
+}
+
+#vasen {
+		float: left;
+		width: 240px;
+		padding: 5px 0;
+		margin-left: 10px;
+}
+
+#keski {
+	padding: 0px 0px;
+	width: 630px;
+	float: left;
+	margin-left: 0px;
+	margin-right: 20px;
+	
+}
+
+#sisennys {
+	margin-left: 240px;
+
+}
+
+#pohja {
+	height: 50px; 
+	position: absolute; 
+	bottom: 3; 
+	width: inherit;
+	text-align: center;
+}
+
+.kehys{
+	border-style: solid;
+    border-width: 1px;
+	text-align: left;
+	padding: 2px;
+	background: #edeff4;
+}
+
+p{
+	font-size: 18px;
+	word-wrap: break-word;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #004687;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #004687;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #004687;
+	text-decoration: underline;
+}
+
+
+/* selected link */
+a:active {
+    color: #004687;
+	text-decoration: none;
+}
+
+h1 {
+	margin-top: 0px;
+	font-size: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+	margin-top: 0px;
+	font-size: 1.3em;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+.otsikko {
+
+	font: 48px Cantarell;
+	margin-bottom: 0;
+	margin-top: 0;
+	display: inline-block;
+	
+}
+
+.otsikko2 {
+
+	font: 32px Cantarell;
+	margin-bottom: 0;
+	margin-top: 0; 	
+	display: inline-block;
+}
+ 
+.line-separator {
+	height: 1px;
+	background: #717171;
+	border-bottom: 0px solid #313030;
+}
+
+td {
+	border-style: solid;
+	border-width: 1px;
+}
+
+table.tiivis {
+	font: 12px Cantarell;
+}
+
+
+
+li.teksti {
+	font: 12px Cantarell;
+}
+
+td.rajaton {
+	border: 0px;
+}
+
+#headerLogo {
+	display: block;
+	border: none;
+}
+
+#menuLine {
+	display: none;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+li.menu {
+	float: left;
+	display: block;
+	padding: 8px 0px 7px 0px;
+
+}
+
+li.menu a {
+	color: white;
+	text-decoration: none;
+	padding: 8px;
+	font-size: 18px;
+	border-right: 1px solid white;
+}
+
+li a:hover {
+	background-color: blue;
+}
+
+.juutube {
+	width: 560px; 
+	height: 315px;
+}
+
+#kuva1 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/banderolli5.png");
+	background-size: cover;
+	background-repeat: repeat;
+	width: 100%;
+	background-color: black;
+	height: 100%;
+	display: block;
+}
+
+#kuva2 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/banderolli2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva3 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/banderolli6.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva4 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/banderolli3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva5 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/pic1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva6 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/pic6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva7 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/pic7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#kuva8 {
+	background-image: url("http://www.kuninkaantie.espoo.fi/images/pic15.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+@media screen and (max-width: 980px) {
+	html, body {
+		margin-top: 0px;
+	}
+	
+    #sivu {
+		
+        background-color: #ffffff;
+		min-height: 1100px;
+		overflow: hidden;
+		margin: auto;
+		width: 98%;
+    }
+	
+	#vasen {
+		display: none;
+	}
+	
+	#keski {
+		padding: initial;
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-left: none;
+		word-wrap: break-word;
+	}
+	
+	hr {
+		width: 90%;
+		display: inline-block;
+	}
+	
+	p {
+		display: inline-block;
+		width: auto
+	}
+	
+	h2 {
+		width: 100%;
+	}
+	
+	#headerLogo {
+		display: none;
+	}
+	
+	#menuLine {
+		display: block;
+		position: fixed;
+		width: 100%;
+		background-color: black;
+		color: white;
+		top: 0;
+		z-index: 10;
+	}
+	
+	.juutube {
+		width: 100%;
+		height: 400px;
+	}
+	
+
+}
