@@ -165,9 +165,9 @@ hr{border:0;border-top:1px solid #000000;margin:20px 0}
 .w3-deep-purple,.w3-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
 .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 
-.w3-reddit,.w3-hover-reddit:hover{color:#ff4500!important;background-color:#ffffff!important}
-.w3-yt,.w3-hover-yt:hover{color:#e62117!important;background-color:#ffffff!important}
-.w3-twitter,.w3-hover-twitter:hover{color:#08a0e9!important;background-color:#ffffff!important}
+.w3-reddit,.w3-hover-reddit:hover{color:#ff4500!important;background-color:#ffffff!important;transition: 0.2s;}
+.w3-yt,.w3-hover-yt:hover{color:#e62117!important;background-color:#ffffff!important;transition: 0.2s;}
+.w3-twitter,.w3-hover-twitter:hover{color:#08a0e9!important;background-color:#ffffff!important;transition: 0.2s;}
 
 .w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
@@ -217,4 +217,21 @@ hr{border:0;border-top:1px solid #000000;margin:20px 0}
 
 .footer {
 	text-align: right;
+	font-size: 1em;
+}
+.slabo {
+	font-family: 'Slabo 27px', serif;
+	margin: 10px;
+}
+.title
+	{
+	font-family: 'Bungee Shade', cursive;
+}
+.titletext {
+	font-size: 5em;
+}
+@media screen and (max-width: 650px) {
+	.titletext {
+		font-size: 2.5em;
+	}
 }
